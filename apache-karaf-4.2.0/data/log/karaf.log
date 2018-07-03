@@ -1,0 +1,804 @@
+六月 25, 2018 2:33:12 下午 org.apache.karaf.main.Main launch
+信息: Installing and starting initial bundles
+六月 25, 2018 2:33:12 下午 org.apache.karaf.main.Main launch
+信息: All initial bundles installed and set to start
+六月 25, 2018 2:33:12 下午 org.apache.karaf.main.lock.SimpleFileLock lock
+信息: Trying to lock /home/lxy/apache-maven-3.5.4/apache-karaf-4.2.0/lock
+六月 25, 2018 2:33:12 下午 org.apache.karaf.main.lock.SimpleFileLock lock
+信息: Lock acquired
+六月 25, 2018 2:33:12 下午 org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+信息: Lock acquired. Setting startlevel to 100
+2018-06-25T14:33:13,700 | INFO  | activator-1-thread-2 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | Adding features: system/[4.2.0,4.2.0],feature/[4.2.0,4.2.0],deployer/[4.2.0,4.2.0],diagnostic/[4.2.0,4.2.0],management/[4.2.0,4.2.0],bundle/[4.2.0,4.2.0],ssh/[4.2.0,4.2.0],log/[4.2.0,4.2.0],eventadmin/[4.2.0,4.2.0],instance/[4.2.0,4.2.0],config/[4.2.0,4.2.0],framework/[4.2.0,4.2.0],shell/[4.2.0,4.2.0],kar/[4.2.0,4.2.0],wrap/[2.5.4,2.5.4],service/[4.2.0,4.2.0],jaas/[4.2.0,4.2.0],package/[4.2.0,4.2.0]
+2018-06-25T14:33:13,893 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | Changes to perform:
+2018-06-25T14:33:13,893 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   Region: root
+2018-06-25T14:33:13,894 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |     Bundles to install:
+2018-06-25T14:33:13,894 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.aries.jmx/org.apache.aries.jmx.api/1.1.5
+2018-06-25T14:33:13,894 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.aries.jmx/org.apache.aries.jmx.core/1.1.8
+2018-06-25T14:33:13,894 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.aries.jmx/org.apache.aries.jmx.whiteboard/1.2.0
+2018-06-25T14:33:13,894 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.aries/org.apache.aries.util/1.1.3
+2018-06-25T14:33:13,894 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.bundle/org.apache.karaf.bundle.core/4.2.0
+2018-06-25T14:33:13,894 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.config/org.apache.karaf.config.core/4.2.0
+2018-06-25T14:33:13,895 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.features/4.2.0
+2018-06-25T14:33:13,895 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.kar/4.2.0
+2018-06-25T14:33:13,895 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.wrap/4.2.0
+2018-06-25T14:33:13,895 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.diagnostic/org.apache.karaf.diagnostic.core/4.2.0
+2018-06-25T14:33:13,895 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf/org.apache.karaf.event/4.2.0
+2018-06-25T14:33:13,895 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.features/org.apache.karaf.features.command/4.2.0
+2018-06-25T14:33:13,896 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.instance/org.apache.karaf.instance.core/4.2.0
+2018-06-25T14:33:13,896 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.command/4.2.0
+2018-06-25T14:33:13,896 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.config/4.2.0
+2018-06-25T14:33:13,896 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.modules/4.2.0
+2018-06-25T14:33:13,896 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.kar/org.apache.karaf.kar.core/4.2.0
+2018-06-25T14:33:13,896 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.log/org.apache.karaf.log.core/4.2.0
+2018-06-25T14:33:13,897 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.management/org.apache.karaf.management.server/4.2.0
+2018-06-25T14:33:13,897 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.package/org.apache.karaf.package.core/4.2.0
+2018-06-25T14:33:13,897 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.service/org.apache.karaf.service.core/4.2.0
+2018-06-25T14:33:13,897 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.shell/org.apache.karaf.shell.commands/4.2.0
+2018-06-25T14:33:13,897 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.shell/org.apache.karaf.shell.core/4.2.0
+2018-06-25T14:33:13,897 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.shell/org.apache.karaf.shell.ssh/4.2.0
+2018-06-25T14:33:13,897 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.system/org.apache.karaf.system.core/4.2.0
+2018-06-25T14:33:13,898 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.not-yet-commons-ssl/0.3.11_1
+2018-06-25T14:33:13,898 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.sshd/sshd-core/1.7.0
+2018-06-25T14:33:13,898 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.jline/jline-builtins/3.6.2
+2018-06-25T14:33:13,898 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.jline/jline-reader/3.6.2
+2018-06-25T14:33:13,898 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.jline/jline-terminal/3.6.2
+2018-06-25T14:33:13,898 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.jline/jline-terminal-jansi/3.6.2
+2018-06-25T14:33:13,899 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.ops4j.pax.url/pax-url-wrap/2.5.4/jar/uber
+2018-06-25T14:33:13,901 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | Installing bundles:
+2018-06-25T14:33:13,901 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.aries.jmx/org.apache.aries.jmx.api/1.1.5
+2018-06-25T14:33:13,904 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.aries.jmx/org.apache.aries.jmx.core/1.1.8
+2018-06-25T14:33:13,905 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.aries.jmx/org.apache.aries.jmx.whiteboard/1.2.0
+2018-06-25T14:33:13,907 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.aries/org.apache.aries.util/1.1.3
+2018-06-25T14:33:13,908 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.bundle/org.apache.karaf.bundle.core/4.2.0
+2018-06-25T14:33:13,910 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.config/org.apache.karaf.config.core/4.2.0
+2018-06-25T14:33:13,931 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.features/4.2.0
+2018-06-25T14:33:13,933 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.kar/4.2.0
+2018-06-25T14:33:13,934 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.wrap/4.2.0
+2018-06-25T14:33:13,935 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.diagnostic/org.apache.karaf.diagnostic.core/4.2.0
+2018-06-25T14:33:13,936 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf/org.apache.karaf.event/4.2.0
+2018-06-25T14:33:13,937 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.features/org.apache.karaf.features.command/4.2.0
+2018-06-25T14:33:13,939 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.instance/org.apache.karaf.instance.core/4.2.0
+2018-06-25T14:33:13,941 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.command/4.2.0
+2018-06-25T14:33:13,942 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.config/4.2.0
+2018-06-25T14:33:13,943 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.modules/4.2.0
+2018-06-25T14:33:13,946 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.kar/org.apache.karaf.kar.core/4.2.0
+2018-06-25T14:33:13,947 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.log/org.apache.karaf.log.core/4.2.0
+2018-06-25T14:33:13,948 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.management/org.apache.karaf.management.server/4.2.0
+2018-06-25T14:33:13,950 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.package/org.apache.karaf.package.core/4.2.0
+2018-06-25T14:33:13,951 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.service/org.apache.karaf.service.core/4.2.0
+2018-06-25T14:33:13,953 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.shell/org.apache.karaf.shell.commands/4.2.0
+2018-06-25T14:33:13,954 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.shell/org.apache.karaf.shell.core/4.2.0
+2018-06-25T14:33:13,956 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.shell/org.apache.karaf.shell.ssh/4.2.0
+2018-06-25T14:33:13,958 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.karaf.system/org.apache.karaf.system.core/4.2.0
+2018-06-25T14:33:13,960 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.not-yet-commons-ssl/0.3.11_1
+2018-06-25T14:33:13,961 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.apache.sshd/sshd-core/1.7.0
+2018-06-25T14:33:13,965 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.jline/jline-builtins/3.6.2
+2018-06-25T14:33:13,967 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.jline/jline-reader/3.6.2
+2018-06-25T14:33:13,968 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.jline/jline-terminal/3.6.2
+2018-06-25T14:33:13,970 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.jline/jline-terminal-jansi/3.6.2
+2018-06-25T14:33:13,971 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   mvn:org.ops4j.pax.url/pax-url-wrap/2.5.4/jar/uber
+2018-06-25T14:33:14,052 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | Starting bundles:
+2018-06-25T14:33:14,053 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.ops4j.pax.url.wrap/2.5.4
+2018-06-25T14:33:14,058 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.aries.util/1.1.3
+2018-06-25T14:33:14,058 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.deployer.kar/4.2.0
+2018-06-25T14:33:14,063 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.deployer.wrap/4.2.0
+2018-06-25T14:33:14,068 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.deployer.features/4.2.0
+2018-06-25T14:33:14,104 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.jline.terminal/3.6.2
+2018-06-25T14:33:14,105 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.jline.reader/3.6.2
+2018-06-25T14:33:14,105 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.jline.builtins/3.6.2
+2018-06-25T14:33:14,106 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.shell.core/4.2.0
+2018-06-25T14:33:14,130 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.deployer.kar/4.2.0
+2018-06-25T14:33:14,244 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.config.core/4.2.0
+2018-06-25T14:33:14,294 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.config.core/4.2.0
+2018-06-25T14:33:14,337 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.diagnostic.core/4.2.0
+2018-06-25T14:33:14,343 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.diagnostic.core/4.2.0
+2018-06-25T14:33:14,344 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.system.core/4.2.0
+2018-06-25T14:33:14,359 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.system.core/4.2.0
+2018-06-25T14:33:14,363 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.servicemix.bundles.not-yet-commons-ssl/0.3.11.1
+2018-06-25T14:33:14,364 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.aries.jmx.api/1.1.5
+2018-06-25T14:33:14,365 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.jaas.config/4.2.0
+2018-06-25T14:33:14,376 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.management.server/4.2.0
+2018-06-25T14:33:14,390 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.service.core/4.2.0
+2018-06-25T14:33:14,402 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.service.core/4.2.0
+2018-06-25T14:33:14,402 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.aries.jmx.core/1.1.8
+2018-06-25T14:33:14,406 | INFO  | features-3-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Starting JMX OSGi agent
+2018-06-25T14:33:14,425 | INFO  | features-3-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f] for service with service.id [12]
+2018-06-25T14:33:14,426 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.features.command/4.2.0
+2018-06-25T14:33:14,448 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.features.command/4.2.0
+2018-06-25T14:33:14,449 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.kar.core/4.2.0
+2018-06-25T14:33:14,444 | INFO  | activator-1-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@6cd6748c with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f
+2018-06-25T14:33:14,453 | INFO  | activator-1-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@6cd6748c with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f
+2018-06-25T14:33:14,454 | INFO  | activator-1-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@6cd6748c with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f
+2018-06-25T14:33:14,455 | INFO  | activator-1-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@6cd6748c with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f
+2018-06-25T14:33:14,455 | INFO  | activator-1-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@6cd6748c with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f
+2018-06-25T14:33:14,455 | INFO  | activator-1-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@6cd6748c with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f
+2018-06-25T14:33:14,461 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.kar.core/4.2.0. Missing dependencies: [org.apache.karaf.kar.KarService]
+2018-06-25T14:33:14,463 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.shell.commands/4.2.0
+2018-06-25T14:33:14,488 | INFO  | activator-1-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.kar.core/4.2.0
+2018-06-25T14:33:14,503 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.shell.commands/4.2.0
+2018-06-25T14:33:14,504 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.package.core/4.2.0
+2018-06-25T14:33:14,511 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.package.core/4.2.0
+2018-06-25T14:33:14,511 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.jaas.modules/4.2.0
+2018-06-25T14:33:14,519 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.jaas.command/4.2.0
+2018-06-25T14:33:14,535 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-25T14:33:14,536 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Updating commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-25T14:33:14,537 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Updating commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-25T14:33:14,538 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.sshd.core/1.7.0
+2018-06-25T14:33:14,538 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.shell.ssh/4.2.0
+2018-06-25T14:33:14,640 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.shell.ssh/4.2.0. Missing dependencies: [org.apache.sshd.server.SshServer]
+2018-06-25T14:33:14,649 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.bundle.core/4.2.0
+2018-06-25T14:33:14,673 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.bundle.core/4.2.0
+2018-06-25T14:33:14,674 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.log.core/4.2.0
+2018-06-25T14:33:14,689 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.log.core/4.2.0. Missing dependencies: [org.apache.karaf.log.core.LogService]
+2018-06-25T14:33:14,690 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.aries.jmx.whiteboard/1.2.0
+2018-06-25T14:33:14,689 | INFO  | activator-1-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.log.core/4.2.0
+2018-06-25T14:33:14,718 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.instance.core/4.2.0
+2018-06-25T14:33:14,722 | INFO  | activator-1-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.shell.ssh/4.2.0
+2018-06-25T14:33:14,743 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.instance.core/4.2.0
+2018-06-25T14:33:14,744 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.event/4.2.0
+2018-06-25T14:33:14,752 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.event/4.2.0
+2018-06-25T14:33:14,754 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | Done.
+2018-06-25T14:39:31,969 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.event/4.2.0
+2018-06-25T14:39:31,974 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.system.core/4.2.0
+2018-06-25T14:39:31,976 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.shell.ssh/4.2.0
+2018-06-25T14:39:31,987 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.config.core/4.2.0
+2018-06-25T14:39:31,987 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-25T14:39:31,988 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.diagnostic.core/4.2.0
+2018-06-25T14:39:31,988 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.bundle.core/4.2.0
+2018-06-25T14:39:31,988 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.deployer.kar/4.2.0
+2018-06-25T14:39:31,988 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.service.core/4.2.0
+2018-06-25T14:39:31,988 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.log.core/4.2.0
+2018-06-25T14:39:31,989 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.kar.core/4.2.0
+2018-06-25T14:39:31,989 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.shell.commands/4.2.0
+2018-06-25T14:39:31,989 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.package.core/4.2.0
+2018-06-25T14:39:31,989 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.instance.core/4.2.0
+2018-06-25T14:39:31,989 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.features.command/4.2.0
+2018-06-25T14:39:32,001 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@6cd6748c with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f
+2018-06-25T14:39:32,001 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@6cd6748c with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f
+2018-06-25T14:39:32,002 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@6cd6748c with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f
+2018-06-25T14:39:32,002 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@6cd6748c with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f
+2018-06-25T14:39:32,002 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@6cd6748c with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f
+2018-06-25T14:39:32,003 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@6cd6748c with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f
+2018-06-25T14:39:32,004 | WARN  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2018-06-25T14:39:32,019 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Stopping JMX OSGi agent
+2018-06-25T14:39:32,020 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=e8c3a76b-8bf2-4522-86fe-2460a676a28f] for service with service.id [12]
+六月 26, 2018 10:36:00 上午 org.apache.karaf.main.lock.SimpleFileLock lock
+信息: Trying to lock /home/lxy/apache-karaf-4.2.0/lock
+六月 26, 2018 10:36:00 上午 org.apache.karaf.main.lock.SimpleFileLock lock
+信息: Lock acquired
+六月 26, 2018 10:36:00 上午 org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+信息: Lock acquired. Setting startlevel to 100
+2018-06-26T10:36:01,815 | INFO  | activator-1-thread-2 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.log.core/4.2.0
+2018-06-26T10:36:01,819 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7d1c0d82 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:36:01,820 | INFO  | activator-1-thread-2 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.log.core/4.2.0
+2018-06-26T10:36:01,820 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7d1c0d82 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:36:01,820 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7d1c0d82 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:36:01,821 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7d1c0d82 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:36:01,822 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7d1c0d82 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:36:01,822 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7d1c0d82 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:36:01,823 | WARN  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2018-06-26T10:36:01,828 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@14b75995 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:36:01,828 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@14b75995 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:36:01,829 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@14b75995 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:36:01,829 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@14b75995 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:36:01,829 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@14b75995 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:36:01,829 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@14b75995 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:36:02,145 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.shell.ssh/4.2.0. Missing dependencies: [org.apache.sshd.server.SshServer]
+2018-06-26T10:36:02,154 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.system.core/4.2.0
+2018-06-26T10:36:02,182 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.event/4.2.0
+2018-06-26T10:36:02,511 | INFO  | activator-1-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.shell.ssh/4.2.0
+2018-06-26T10:36:02,519 | INFO  | activator-1-thread-2 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.features.command/4.2.0
+2018-06-26T10:36:02,536 | INFO  | activator-1-thread-3 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.kar.core/4.2.0
+2018-06-26T10:45:27,898 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.event/4.2.0
+2018-06-26T10:45:27,906 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.system.core/4.2.0
+2018-06-26T10:45:27,911 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.shell.ssh/4.2.0
+2018-06-26T10:45:27,937 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.kar.core/4.2.0
+2018-06-26T10:45:27,938 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.config.core/4.2.0
+2018-06-26T10:45:27,940 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.log.core/4.2.0
+2018-06-26T10:45:27,941 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.diagnostic.core/4.2.0
+2018-06-26T10:45:27,941 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.shell.commands/4.2.0
+2018-06-26T10:45:27,942 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.bundle.core/4.2.0
+2018-06-26T10:45:27,942 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.instance.core/4.2.0
+2018-06-26T10:45:27,942 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.service.core/4.2.0
+2018-06-26T10:45:27,943 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.package.core/4.2.0
+2018-06-26T10:45:27,943 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.features.command/4.2.0
+2018-06-26T10:45:27,943 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T10:45:27,949 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.deployer.kar/4.2.0
+2018-06-26T10:45:27,957 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@14b75995 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:45:27,957 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@14b75995 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:45:27,958 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@14b75995 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:45:27,959 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@14b75995 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:45:27,959 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@14b75995 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:45:27,961 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@14b75995 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd
+2018-06-26T10:45:27,962 | WARN  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2018-06-26T10:45:28,004 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Stopping JMX OSGi agent
+2018-06-26T10:45:28,004 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=89f3cb2e-eb30-4bf9-b9ca-a5c8db2ea5cd] for service with service.id [15]
+六月 26, 2018 10:51:49 上午 org.apache.karaf.main.lock.SimpleFileLock lock
+信息: Trying to lock /home/lxy/apache-karaf-4.2.0/lock
+六月 26, 2018 10:51:49 上午 org.apache.karaf.main.lock.SimpleFileLock lock
+信息: Lock acquired
+六月 26, 2018 10:51:49 上午 org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+信息: Lock acquired. Setting startlevel to 100
+2018-06-26T10:51:50,031 | WARN  | CM Configuration Updater (ManagedServiceFactory Update: factoryPid=[org.apache.felix.fileinstall]) | fileinstall                      | 9 - org.apache.felix.fileinstall - 3.6.4 | /home/lxy/apache-maven-3.5.4/apache-karaf-4.2.0/deploy does not exist, please create it.
+2018-06-26T10:51:50,034 | WARN  | CM Configuration Updater (ManagedServiceFactory Update: factoryPid=[org.apache.felix.fileinstall]) | fileinstall                      | 9 - org.apache.felix.fileinstall - 3.6.4 | Root path does not exist: /home/lxy/apache-maven-3.5.4/apache-karaf-4.2.0/deploy
+2018-06-26T10:51:50,041 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.bundle.core/4.2.0
+2018-06-26T10:51:50,050 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.config.core/4.2.0
+2018-06-26T10:51:50,053 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@453e819 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T10:51:50,054 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@453e819 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T10:51:50,055 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@453e819 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T10:51:50,055 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@453e819 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T10:51:50,056 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@453e819 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T10:51:50,056 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@453e819 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T10:51:50,057 | WARN  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2018-06-26T10:51:50,073 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@30a78073 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T10:51:50,073 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@30a78073 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T10:51:50,074 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@30a78073 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T10:51:50,074 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@30a78073 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T10:51:50,074 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@30a78073 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T10:51:50,075 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@30a78073 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T10:51:50,084 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.deployer.kar/4.2.0
+2018-06-26T10:51:50,086 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.diagnostic.core/4.2.0
+2018-06-26T10:51:50,099 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.features.command/4.2.0. Missing dependencies: [org.apache.karaf.features.FeaturesService]
+2018-06-26T10:51:50,105 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.instance.core/4.2.0
+2018-06-26T10:51:50,114 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T10:51:50,116 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Updating commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T10:51:50,116 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Updating commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T10:51:50,119 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.kar.core/4.2.0. Missing dependencies: [org.apache.karaf.kar.KarService]
+2018-06-26T10:51:50,122 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.log.core/4.2.0
+2018-06-26T10:51:50,125 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.package.core/4.2.0
+2018-06-26T10:51:50,127 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.service.core/4.2.0
+2018-06-26T10:51:50,133 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.shell.commands/4.2.0
+2018-06-26T10:51:50,236 | INFO  | activator-1-thread-2 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.features.command/4.2.0
+2018-06-26T10:51:50,248 | INFO  | activator-1-thread-3 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.kar.core/4.2.0
+2018-06-26T10:51:50,282 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.shell.ssh/4.2.0. Missing dependencies: [org.apache.sshd.server.SshServer]
+2018-06-26T10:51:50,310 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.system.core/4.2.0
+2018-06-26T10:51:50,316 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.event/4.2.0
+2018-06-26T10:51:50,376 | INFO  | activator-1-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.shell.ssh/4.2.0
+2018-06-26T11:04:59,786 | INFO  | Karaf local console user karaf | jline                            | 40 - org.jline.terminal - 3.6.2 | Error while finding completion candidates
+java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+	at java.lang.String.substring(String.java:1963) ~[?:?]
+	at org.apache.karaf.shell.support.completers.StringsCompleter.complete(StringsCompleter.java:82) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter$SimpleCommandCompleter.complete(CommandsCompleter.java:316) ~[?:?]
+	at org.apache.karaf.shell.api.console.Completer.completeCandidates(Completer.java:41) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.lambda$completeCandidates$3(CommandsCompleter.java:132) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.completeCandidates(CommandsCompleter.java:132) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.complete(CommandsCompleter.java:72) ~[?:?]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.lambda$new$0(ConsoleSessionImpl.java:161) ~[?:?]
+	at org.jline.reader.impl.LineReaderImpl.doComplete(LineReaderImpl.java:3812) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.expandOrComplete(LineReaderImpl.java:3727) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:557) [39:org.jline.reader:3.6.2]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.readCommand(ConsoleSessionImpl.java:436) [33:org.apache.karaf.shell.core:4.2.0]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.run(ConsoleSessionImpl.java:394) [33:org.apache.karaf.shell.core:4.2.0]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-06-26T11:05:00,127 | INFO  | Karaf local console user karaf | jline                            | 40 - org.jline.terminal - 3.6.2 | Error while finding completion candidates
+java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+	at java.lang.String.substring(String.java:1963) ~[?:?]
+	at org.apache.karaf.shell.support.completers.StringsCompleter.complete(StringsCompleter.java:82) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter$SimpleCommandCompleter.complete(CommandsCompleter.java:316) ~[?:?]
+	at org.apache.karaf.shell.api.console.Completer.completeCandidates(Completer.java:41) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.lambda$completeCandidates$3(CommandsCompleter.java:132) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.completeCandidates(CommandsCompleter.java:132) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.complete(CommandsCompleter.java:72) ~[?:?]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.lambda$new$0(ConsoleSessionImpl.java:161) ~[?:?]
+	at org.jline.reader.impl.LineReaderImpl.doComplete(LineReaderImpl.java:3812) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.expandOrComplete(LineReaderImpl.java:3727) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:557) [39:org.jline.reader:3.6.2]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.readCommand(ConsoleSessionImpl.java:436) [33:org.apache.karaf.shell.core:4.2.0]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.run(ConsoleSessionImpl.java:394) [33:org.apache.karaf.shell.core:4.2.0]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-06-26T11:05:00,280 | INFO  | Karaf local console user karaf | jline                            | 40 - org.jline.terminal - 3.6.2 | Error while finding completion candidates
+java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+	at java.lang.String.substring(String.java:1963) ~[?:?]
+	at org.apache.karaf.shell.support.completers.StringsCompleter.complete(StringsCompleter.java:82) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter$SimpleCommandCompleter.complete(CommandsCompleter.java:316) ~[?:?]
+	at org.apache.karaf.shell.api.console.Completer.completeCandidates(Completer.java:41) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.lambda$completeCandidates$3(CommandsCompleter.java:132) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.completeCandidates(CommandsCompleter.java:132) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.complete(CommandsCompleter.java:72) ~[?:?]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.lambda$new$0(ConsoleSessionImpl.java:161) ~[?:?]
+	at org.jline.reader.impl.LineReaderImpl.doComplete(LineReaderImpl.java:3812) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.expandOrComplete(LineReaderImpl.java:3727) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:557) [39:org.jline.reader:3.6.2]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.readCommand(ConsoleSessionImpl.java:436) [33:org.apache.karaf.shell.core:4.2.0]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.run(ConsoleSessionImpl.java:394) [33:org.apache.karaf.shell.core:4.2.0]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-06-26T11:05:10,002 | INFO  | Karaf local console user karaf | jline                            | 40 - org.jline.terminal - 3.6.2 | Error while finding completion candidates
+java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+	at java.lang.String.substring(String.java:1963) ~[?:?]
+	at org.apache.karaf.shell.support.completers.StringsCompleter.complete(StringsCompleter.java:82) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter$SimpleCommandCompleter.complete(CommandsCompleter.java:316) ~[?:?]
+	at org.apache.karaf.shell.api.console.Completer.completeCandidates(Completer.java:41) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.lambda$completeCandidates$3(CommandsCompleter.java:132) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.completeCandidates(CommandsCompleter.java:132) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.complete(CommandsCompleter.java:72) ~[?:?]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.lambda$new$0(ConsoleSessionImpl.java:161) ~[?:?]
+	at org.jline.reader.impl.LineReaderImpl.doComplete(LineReaderImpl.java:3812) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.expandOrComplete(LineReaderImpl.java:3727) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:557) [39:org.jline.reader:3.6.2]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.readCommand(ConsoleSessionImpl.java:436) [33:org.apache.karaf.shell.core:4.2.0]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.run(ConsoleSessionImpl.java:394) [33:org.apache.karaf.shell.core:4.2.0]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-06-26T11:05:10,169 | INFO  | Karaf local console user karaf | jline                            | 40 - org.jline.terminal - 3.6.2 | Error while finding completion candidates
+java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+	at java.lang.String.substring(String.java:1963) ~[?:?]
+	at org.apache.karaf.shell.support.completers.StringsCompleter.complete(StringsCompleter.java:82) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter$SimpleCommandCompleter.complete(CommandsCompleter.java:316) ~[?:?]
+	at org.apache.karaf.shell.api.console.Completer.completeCandidates(Completer.java:41) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.lambda$completeCandidates$3(CommandsCompleter.java:132) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.completeCandidates(CommandsCompleter.java:132) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.complete(CommandsCompleter.java:72) ~[?:?]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.lambda$new$0(ConsoleSessionImpl.java:161) ~[?:?]
+	at org.jline.reader.impl.LineReaderImpl.doComplete(LineReaderImpl.java:3812) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.expandOrComplete(LineReaderImpl.java:3727) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:557) [39:org.jline.reader:3.6.2]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.readCommand(ConsoleSessionImpl.java:436) [33:org.apache.karaf.shell.core:4.2.0]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.run(ConsoleSessionImpl.java:394) [33:org.apache.karaf.shell.core:4.2.0]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-06-26T11:05:10,334 | INFO  | Karaf local console user karaf | jline                            | 40 - org.jline.terminal - 3.6.2 | Error while finding completion candidates
+java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+	at java.lang.String.substring(String.java:1963) ~[?:?]
+	at org.apache.karaf.shell.support.completers.StringsCompleter.complete(StringsCompleter.java:82) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter$SimpleCommandCompleter.complete(CommandsCompleter.java:316) ~[?:?]
+	at org.apache.karaf.shell.api.console.Completer.completeCandidates(Completer.java:41) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.lambda$completeCandidates$3(CommandsCompleter.java:132) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.completeCandidates(CommandsCompleter.java:132) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.complete(CommandsCompleter.java:72) ~[?:?]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.lambda$new$0(ConsoleSessionImpl.java:161) ~[?:?]
+	at org.jline.reader.impl.LineReaderImpl.doComplete(LineReaderImpl.java:3812) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.expandOrComplete(LineReaderImpl.java:3727) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:557) [39:org.jline.reader:3.6.2]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.readCommand(ConsoleSessionImpl.java:436) [33:org.apache.karaf.shell.core:4.2.0]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.run(ConsoleSessionImpl.java:394) [33:org.apache.karaf.shell.core:4.2.0]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-06-26T11:05:10,494 | INFO  | Karaf local console user karaf | jline                            | 40 - org.jline.terminal - 3.6.2 | Error while finding completion candidates
+java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+	at java.lang.String.substring(String.java:1963) ~[?:?]
+	at org.apache.karaf.shell.support.completers.StringsCompleter.complete(StringsCompleter.java:82) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter$SimpleCommandCompleter.complete(CommandsCompleter.java:316) ~[?:?]
+	at org.apache.karaf.shell.api.console.Completer.completeCandidates(Completer.java:41) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.lambda$completeCandidates$3(CommandsCompleter.java:132) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.completeCandidates(CommandsCompleter.java:132) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.complete(CommandsCompleter.java:72) ~[?:?]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.lambda$new$0(ConsoleSessionImpl.java:161) ~[?:?]
+	at org.jline.reader.impl.LineReaderImpl.doComplete(LineReaderImpl.java:3812) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.expandOrComplete(LineReaderImpl.java:3727) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:557) [39:org.jline.reader:3.6.2]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.readCommand(ConsoleSessionImpl.java:436) [33:org.apache.karaf.shell.core:4.2.0]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.run(ConsoleSessionImpl.java:394) [33:org.apache.karaf.shell.core:4.2.0]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-06-26T11:05:10,638 | INFO  | Karaf local console user karaf | jline                            | 40 - org.jline.terminal - 3.6.2 | Error while finding completion candidates
+java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+	at java.lang.String.substring(String.java:1963) ~[?:?]
+	at org.apache.karaf.shell.support.completers.StringsCompleter.complete(StringsCompleter.java:82) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter$SimpleCommandCompleter.complete(CommandsCompleter.java:316) ~[?:?]
+	at org.apache.karaf.shell.api.console.Completer.completeCandidates(Completer.java:41) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.lambda$completeCandidates$3(CommandsCompleter.java:132) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.completeCandidates(CommandsCompleter.java:132) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.complete(CommandsCompleter.java:72) ~[?:?]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.lambda$new$0(ConsoleSessionImpl.java:161) ~[?:?]
+	at org.jline.reader.impl.LineReaderImpl.doComplete(LineReaderImpl.java:3812) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.expandOrComplete(LineReaderImpl.java:3727) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:557) [39:org.jline.reader:3.6.2]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.readCommand(ConsoleSessionImpl.java:436) [33:org.apache.karaf.shell.core:4.2.0]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.run(ConsoleSessionImpl.java:394) [33:org.apache.karaf.shell.core:4.2.0]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-06-26T11:05:10,985 | INFO  | Karaf local console user karaf | jline                            | 40 - org.jline.terminal - 3.6.2 | Error while finding completion candidates
+java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+	at java.lang.String.substring(String.java:1963) ~[?:?]
+	at org.apache.karaf.shell.support.completers.StringsCompleter.complete(StringsCompleter.java:82) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter$SimpleCommandCompleter.complete(CommandsCompleter.java:316) ~[?:?]
+	at org.apache.karaf.shell.api.console.Completer.completeCandidates(Completer.java:41) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.lambda$completeCandidates$3(CommandsCompleter.java:132) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.completeCandidates(CommandsCompleter.java:132) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.complete(CommandsCompleter.java:72) ~[?:?]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.lambda$new$0(ConsoleSessionImpl.java:161) ~[?:?]
+	at org.jline.reader.impl.LineReaderImpl.doComplete(LineReaderImpl.java:3812) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.expandOrComplete(LineReaderImpl.java:3727) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:557) [39:org.jline.reader:3.6.2]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.readCommand(ConsoleSessionImpl.java:436) [33:org.apache.karaf.shell.core:4.2.0]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.run(ConsoleSessionImpl.java:394) [33:org.apache.karaf.shell.core:4.2.0]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-06-26T11:05:11,298 | INFO  | Karaf local console user karaf | jline                            | 40 - org.jline.terminal - 3.6.2 | Error while finding completion candidates
+java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+	at java.lang.String.substring(String.java:1963) ~[?:?]
+	at org.apache.karaf.shell.support.completers.StringsCompleter.complete(StringsCompleter.java:82) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter$SimpleCommandCompleter.complete(CommandsCompleter.java:316) ~[?:?]
+	at org.apache.karaf.shell.api.console.Completer.completeCandidates(Completer.java:41) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.lambda$completeCandidates$3(CommandsCompleter.java:132) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.completeCandidates(CommandsCompleter.java:132) ~[?:?]
+	at org.apache.karaf.shell.impl.console.CommandsCompleter.complete(CommandsCompleter.java:72) ~[?:?]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.lambda$new$0(ConsoleSessionImpl.java:161) ~[?:?]
+	at org.jline.reader.impl.LineReaderImpl.doComplete(LineReaderImpl.java:3812) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.expandOrComplete(LineReaderImpl.java:3727) ~[39:org.jline.reader:3.6.2]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:557) [39:org.jline.reader:3.6.2]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.readCommand(ConsoleSessionImpl.java:436) [33:org.apache.karaf.shell.core:4.2.0]
+	at org.apache.karaf.shell.impl.console.ConsoleSessionImpl.run(ConsoleSessionImpl.java:394) [33:org.apache.karaf.shell.core:4.2.0]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-06-26T11:05:21,957 | INFO  | pipe-logout      | LogoutAction                     | 32 - org.apache.karaf.shell.commands - 4.2.0 | Disconnecting from current session...
+2018-06-26T11:05:21,965 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.event/4.2.0
+2018-06-26T11:05:21,970 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.system.core/4.2.0
+2018-06-26T11:05:21,972 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.shell.ssh/4.2.0
+2018-06-26T11:05:21,995 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.diagnostic.core/4.2.0
+2018-06-26T11:05:21,995 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.features.command/4.2.0
+2018-06-26T11:05:21,995 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T11:05:21,996 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.shell.commands/4.2.0
+2018-06-26T11:05:21,996 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.bundle.core/4.2.0
+2018-06-26T11:05:21,996 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.package.core/4.2.0
+2018-06-26T11:05:21,997 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.config.core/4.2.0
+2018-06-26T11:05:21,997 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.log.core/4.2.0
+2018-06-26T11:05:21,998 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.deployer.kar/4.2.0
+2018-06-26T11:05:21,998 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.kar.core/4.2.0
+2018-06-26T11:05:21,998 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.instance.core/4.2.0
+2018-06-26T11:05:21,998 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.service.core/4.2.0
+2018-06-26T11:05:22,002 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@30a78073 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T11:05:22,003 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@30a78073 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T11:05:22,003 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@30a78073 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T11:05:22,004 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@30a78073 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T11:05:22,004 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@30a78073 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T11:05:22,004 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@30a78073 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480
+2018-06-26T11:05:22,004 | WARN  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2018-06-26T11:05:22,028 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Stopping JMX OSGi agent
+2018-06-26T11:05:22,028 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=eadb2911-1ee1-48e6-b774-d6e8f41f3480] for service with service.id [15]
+六月 26, 2018 11:05:33 上午 org.apache.karaf.main.lock.SimpleFileLock lock
+信息: Trying to lock /home/lxy/apache-karaf-4.2.0/lock
+六月 26, 2018 11:05:33 上午 org.apache.karaf.main.lock.SimpleFileLock lock
+信息: Lock acquired
+六月 26, 2018 11:05:33 上午 org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+信息: Lock acquired. Setting startlevel to 100
+2018-06-26T11:05:33,695 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Starting JMX OSGi agent
+2018-06-26T11:05:33,708 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3] for service with service.id [15]
+2018-06-26T11:05:33,874 | INFO  | activator-1-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2a69e005 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:33,875 | INFO  | activator-1-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2a69e005 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:33,875 | INFO  | activator-1-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2a69e005 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:33,879 | INFO  | activator-1-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2a69e005 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:33,880 | INFO  | activator-1-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2a69e005 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:33,880 | INFO  | activator-1-thread-1 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2a69e005 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:33,955 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.bundle.core/4.2.0
+2018-06-26T11:05:33,963 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.config.core/4.2.0
+2018-06-26T11:05:34,004 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.deployer.kar/4.2.0
+2018-06-26T11:05:34,005 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.diagnostic.core/4.2.0
+2018-06-26T11:05:34,015 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.features.command/4.2.0. Missing dependencies: [org.apache.karaf.features.FeaturesService, org.ops4j.pax.url.mvn.MavenResolver, org.eclipse.equinox.region.RegionDigraph]
+2018-06-26T11:05:34,021 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.instance.core/4.2.0
+2018-06-26T11:05:34,050 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T11:05:34,051 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Updating commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T11:05:34,057 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Updating commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T11:05:34,068 | WARN  | CM Configuration Updater (ManagedServiceFactory Update: factoryPid=[org.apache.felix.fileinstall]) | fileinstall                      | 9 - org.apache.felix.fileinstall - 3.6.4 | /home/lxy/apache-maven-3.5.4/apache-karaf-4.2.0/deploy does not exist, please create it.
+2018-06-26T11:05:34,069 | WARN  | CM Configuration Updater (ManagedServiceFactory Update: factoryPid=[org.apache.felix.fileinstall]) | fileinstall                      | 9 - org.apache.felix.fileinstall - 3.6.4 | Root path does not exist: /home/lxy/apache-maven-3.5.4/apache-karaf-4.2.0/deploy
+2018-06-26T11:05:34,070 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.kar.core/4.2.0. Missing dependencies: [org.apache.karaf.kar.KarService]
+2018-06-26T11:05:34,077 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2a69e005 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:34,077 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2a69e005 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:34,078 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2a69e005 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:34,078 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2a69e005 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:34,078 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.log.core/4.2.0. Missing dependencies: [org.apache.karaf.log.core.LogService]
+2018-06-26T11:05:34,079 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2a69e005 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:34,079 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2a69e005 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:34,079 | INFO  | activator-1-thread-2 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.log.core/4.2.0
+2018-06-26T11:05:34,080 | WARN  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2018-06-26T11:05:34,080 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.package.core/4.2.0
+2018-06-26T11:05:34,082 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.service.core/4.2.0
+2018-06-26T11:05:34,088 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.shell.commands/4.2.0
+2018-06-26T11:05:34,093 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@42085025 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:34,093 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@42085025 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:34,098 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@42085025 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:34,099 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@42085025 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:34,099 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@42085025 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:34,099 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@42085025 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:05:34,293 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.shell.ssh/4.2.0. Missing dependencies: [org.apache.sshd.server.SshServer]
+2018-06-26T11:05:34,309 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.system.core/4.2.0
+2018-06-26T11:05:34,320 | INFO  | activator-1-thread-2 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.features.command/4.2.0
+2018-06-26T11:05:34,323 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.event/4.2.0
+2018-06-26T11:05:34,341 | INFO  | activator-1-thread-3 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.kar.core/4.2.0
+2018-06-26T11:05:34,413 | INFO  | activator-1-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.shell.ssh/4.2.0
+2018-06-26T11:26:44,073 | INFO  | pipe-feature:install webconsole | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | Adding features: webconsole/[4.2.0,4.2.0]
+2018-06-26T11:27:04,866 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | Changes to perform:
+2018-06-26T11:27:04,867 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   Region: root
+2018-06-26T11:27:04,867 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |     Bundles to install:
+2018-06-26T11:27:04,872 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:javax.annotation/javax.annotation-api/1.2
+2018-06-26T11:27:04,873 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:javax.mail/mail/1.4.4
+2018-06-26T11:27:04,874 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:javax.servlet/javax.servlet-api/3.1.0
+2018-06-26T11:27:04,874 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.aries.spifly/org.apache.aries.spifly.dynamic.bundle/1.0.10
+2018-06-26T11:27:04,875 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.felix/org.apache.felix.inventory/1.0.4
+2018-06-26T11:27:04,875 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.felix/org.apache.felix.scr/2.0.14
+2018-06-26T11:27:04,875 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.felix/org.apache.felix.webconsole.plugins.ds/2.0.8
+2018-06-26T11:27:04,876 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.felix/org.apache.felix.webconsole.plugins.event/1.1.8
+2018-06-26T11:27:04,876 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.felix/org.apache.felix.webconsole.plugins.memoryusage/1.0.8
+2018-06-26T11:27:04,876 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1
+2018-06-26T11:27:04,877 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1
+2018-06-26T11:27:04,879 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.http/org.apache.karaf.http.core/4.2.0
+2018-06-26T11:27:04,879 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.scr/org.apache.karaf.scr.management/4.2.0
+2018-06-26T11:27:04,880 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.scr/org.apache.karaf.scr.state/4.2.0
+2018-06-26T11:27:04,880 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.console/4.2.0
+2018-06-26T11:27:04,881 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.features/4.2.0
+2018-06-26T11:27:04,881 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.gogo/4.2.0
+2018-06-26T11:27:04,881 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.http/4.2.0
+2018-06-26T11:27:04,882 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.instance/4.2.0
+2018-06-26T11:27:04,882 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.xbean/xbean-bundleutils/4.6
+2018-06-26T11:27:04,882 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.apache.xbean/xbean-finder/4.6
+2018-06-26T11:27:04,882 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-client/9.4.6.v20170531
+2018-06-26T11:27:04,883 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-continuation/9.4.6.v20170531
+2018-06-26T11:27:04,883 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-deploy/9.4.6.v20170531
+2018-06-26T11:27:04,884 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-http/9.4.6.v20170531
+2018-06-26T11:27:04,884 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-io/9.4.6.v20170531
+2018-06-26T11:27:04,885 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-jaas/9.4.6.v20170531
+2018-06-26T11:27:04,886 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-jmx/9.4.6.v20170531
+2018-06-26T11:27:04,886 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-jndi/9.4.6.v20170531
+2018-06-26T11:27:04,886 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-plus/9.4.6.v20170531
+2018-06-26T11:27:04,887 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-rewrite/9.4.6.v20170531
+2018-06-26T11:27:04,887 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-security/9.4.6.v20170531
+2018-06-26T11:27:04,887 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-jaspi/9.4.6.v20170531
+2018-06-26T11:27:04,888 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-server/9.4.6.v20170531
+2018-06-26T11:27:04,888 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-servlet/9.4.6.v20170531
+2018-06-26T11:27:04,888 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-servlets/9.4.6.v20170531
+2018-06-26T11:27:04,889 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-util/9.4.6.v20170531
+2018-06-26T11:27:04,889 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-util-ajax/9.4.6.v20170531
+2018-06-26T11:27:04,889 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-webapp/9.4.6.v20170531
+2018-06-26T11:27:04,889 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.eclipse.jetty/jetty-xml/9.4.6.v20170531
+2018-06-26T11:27:04,890 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.ow2.asm/asm/6.0
+2018-06-26T11:27:04,890 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.ow2.asm/asm-commons/6.0
+2018-06-26T11:27:04,890 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.ow2.asm/asm-tree/6.0
+2018-06-26T11:27:04,890 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.ops4j.pax.web/pax-web-api/7.0.0
+2018-06-26T11:27:04,890 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.ops4j.pax.web/pax-web-jetty/7.0.0
+2018-06-26T11:27:04,891 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.ops4j.pax.web/pax-web-runtime/7.0.0
+2018-06-26T11:27:04,891 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |       mvn:org.ops4j.pax.web/pax-web-spi/7.0.0
+2018-06-26T11:27:04,892 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | Stopping bundles:
+2018-06-26T11:27:04,893 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.ops4j.pax.logging.pax-logging-log4j2/1.10.1
+2018-06-26T11:27:06,135 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.http/9.4.6.v20170531
+2018-06-26T11:27:06,167 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.jmx/9.4.6.v20170531
+2018-06-26T11:27:06,168 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.server/9.4.6.v20170531
+2018-06-26T11:27:06,169 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.security/9.4.6.v20170531
+2018-06-26T11:27:06,169 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.servlet/9.4.6.v20170531
+2018-06-26T11:27:06,170 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.xml/9.4.6.v20170531
+2018-06-26T11:27:06,171 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.webapp/9.4.6.v20170531
+2018-06-26T11:27:06,172 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.util.ajax/9.4.6.v20170531
+2018-06-26T11:27:06,172 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.deploy/9.4.6.v20170531
+2018-06-26T11:27:06,173 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.geronimo.specs.geronimo-jta_1.1_spec/1.1.1
+2018-06-26T11:27:06,174 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.felix.scr/2.0.14
+2018-06-26T11:27:06,221 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.ops4j.pax.web.pax-web-api/7.0.0
+2018-06-26T11:27:06,222 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.webconsole.console/4.2.0
+2018-06-26T11:27:06,304 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.webconsole.gogo/4.2.0
+2018-06-26T11:27:06,309 | INFO  | features-3-thread-1 | GogoPlugin                       | 59 - org.apache.karaf.webconsole.gogo - 4.2.0 | Gogo plugin activated
+2018-06-26T11:27:06,312 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.ops4j.pax.web.pax-web-spi/7.0.0
+2018-06-26T11:27:06,313 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   javax.annotation-api/1.2.0
+2018-06-26T11:27:06,314 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.jaas/9.4.6.v20170531
+2018-06-26T11:27:06,314 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.client/9.4.6.v20170531
+2018-06-26T11:27:06,315 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.rewrite/9.4.6.v20170531
+2018-06-26T11:27:06,316 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.geronimo.specs.geronimo-jaspic_1.0_spec/1.1.0
+2018-06-26T11:27:06,321 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.security.jaspi/9.4.6.v20170531
+2018-06-26T11:27:06,322 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.servlets/9.4.6.v20170531
+2018-06-26T11:27:06,322 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.ops4j.pax.web.pax-web-jetty/7.0.0
+2018-06-26T11:27:06,332 | INFO  | features-3-thread-1 | log                              | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Logging initialized @1294338ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-06-26T11:27:06,340 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.ops4j.pax.web.pax-web-runtime/7.0.0
+2018-06-26T11:27:06,345 | INFO  | features-3-thread-1 | Activator                        | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | EventAdmin support enabled, servlet events will be postet to topics.
+2018-06-26T11:27:06,346 | INFO  | features-3-thread-1 | Activator                        | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | LogService support enabled, log events will be created.
+2018-06-26T11:27:06,348 | INFO  | features-3-thread-1 | Activator                        | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | Pax Web started
+2018-06-26T11:27:06,467 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.http.core/4.2.0
+2018-06-26T11:27:06,493 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.http.core/4.2.0. Missing dependencies: [org.apache.karaf.http.core.ProxyService, org.apache.karaf.http.core.ServletService]
+2018-06-26T11:27:06,494 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.webconsole.http/4.2.0
+2018-06-26T11:27:06,505 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.webconsole.http/4.2.0
+2018-06-26T11:27:06,505 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.scr.state/4.2.0
+2018-06-26T11:27:06,510 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.scr.state/4.2.0
+2018-06-26T11:27:06,517 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.scr.management/4.2.0
+2018-06-26T11:27:06,536 | INFO  | features-3-thread-1 | ServiceComponentRuntimeMBeanImpl | 55 - org.apache.karaf.scr.management - 4.2.0 | Activating the Apache Karaf ServiceComponentRuntime MBean
+2018-06-26T11:27:06,537 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.webconsole.instance/4.2.0
+2018-06-26T11:27:06,552 | INFO  | features-3-thread-1 | InstancePlugin                   | 61 - org.apache.karaf.webconsole.instance - 4.2.0 | Instance plugin activated
+2018-06-26T11:27:06,555 | INFO  | features-3-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.webconsole.instance/4.2.0
+2018-06-26T11:27:06,555 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.karaf.webconsole.features/4.2.0
+2018-06-26T11:27:06,569 | INFO  | features-3-thread-1 | FeaturesPlugin                   | 58 - org.apache.karaf.webconsole.features - 4.2.0 | Features plugin activated
+2018-06-26T11:27:06,571 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.felix.inventory/1.0.4
+2018-06-26T11:27:06,601 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   javax.mail/1.4.4
+2018-06-26T11:27:06,602 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.jndi/9.4.6.v20170531
+2018-06-26T11:27:06,603 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.eclipse.jetty.plus/9.4.6.v20170531
+2018-06-26T11:27:06,604 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.felix.webconsole.plugins.memoryusage/1.0.8
+2018-06-26T11:27:06,607 | INFO  | features-3-thread-1 | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Storing Memory Dumps in /home/lxy/apache-karaf-4.2.0/data/cache/bundle51/data/dumps
+2018-06-26T11:27:06,608 | INFO  | features-3-thread-1 | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Setting Automatic Memory Dump Threshold to 0% for pools [Code Cache, Compressed Class Space, Metaspace, PS Old Gen]
+2018-06-26T11:27:06,609 | INFO  | features-3-thread-1 | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Automatic Memory Dump cannot be set for pools [PS Eden Space, PS Survivor Space]
+2018-06-26T11:27:06,609 | INFO  | features-3-thread-1 | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Setting Automatic Memory Dump Interval to 21600 seconds
+2018-06-26T11:27:06,615 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Setting Automatic Memory Dump Threshold to 0% for pools [Code Cache, Compressed Class Space, Metaspace, PS Old Gen]
+2018-06-26T11:27:06,616 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Automatic Memory Dump cannot be set for pools [PS Eden Space, PS Survivor Space]
+2018-06-26T11:27:06,616 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.felix.webconsole.plugins.ds/2.0.8
+2018-06-26T11:27:06,619 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Setting Automatic Memory Dump Interval to 21600 seconds
+2018-06-26T11:27:06,619 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Storing Memory Dumps in /home/lxy/apache-karaf-4.2.0/data/cache/bundle51/data/dumps
+2018-06-26T11:27:06,631 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.xbean.bundleutils/4.6.0
+2018-06-26T11:27:06,632 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.objectweb.asm/6.0.0
+2018-06-26T11:27:06,633 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.objectweb.asm.tree/6.0.0
+2018-06-26T11:27:06,634 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.objectweb.asm.commons/6.0.0
+2018-06-26T11:27:06,635 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 |   org.apache.xbean.finder/4.6.0
+2018-06-26T11:27:06,638 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | Done.
+2018-06-26T11:27:06,693 | INFO  | paxweb-config-1-thread-1 | JettyFactoryImpl                 | 87 - org.ops4j.pax.web.pax-web-jetty - 7.0.0 | No ALPN class available
+2018-06-26T11:27:06,693 | INFO  | paxweb-config-1-thread-1 | JettyFactoryImpl                 | 87 - org.ops4j.pax.web.pax-web-jetty - 7.0.0 | HTTP/2 not available, creating standard ServerConnector for Http
+2018-06-26T11:27:06,708 | INFO  | paxweb-config-1-thread-1 | JettyServerImpl                  | 87 - org.ops4j.pax.web.pax-web-jetty - 7.0.0 | Pax Web available at [0.0.0.0]:[8181]
+2018-06-26T11:27:06,713 | INFO  | paxweb-config-1-thread-1 | HttpServiceFactoryImpl           | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | Binding bundle: [org.apache.karaf.webconsole.console [57]] to http service
+2018-06-26T11:27:06,777 | INFO  | paxweb-config-1-thread-1 | HttpServiceContext               | 87 - org.ops4j.pax.web.pax-web-jetty - 7.0.0 | registering context DefaultHttpContext [bundle=org.apache.karaf.webconsole.console [57], contextID=custom], with context-name: 
+2018-06-26T11:27:06,809 | INFO  | paxweb-config-1-thread-1 | session                          | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | DefaultSessionIdManager workerName=node0
+2018-06-26T11:27:06,809 | INFO  | paxweb-config-1-thread-1 | session                          | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | No SessionScavenger set, using defaults
+2018-06-26T11:27:06,810 | INFO  | paxweb-config-1-thread-1 | session                          | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Scavenging every 660000ms
+2018-06-26T11:27:06,821 | INFO  | paxweb-config-1-thread-1 | ContextHandler                   | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Started HttpServiceContext{httpContext=DefaultHttpContext [bundle=org.apache.karaf.webconsole.console [57], contextID=custom]}
+2018-06-26T11:27:06,827 | INFO  | paxweb-config-1-thread-1 | Server                           | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | jetty-9.4.6.v20170531
+2018-06-26T11:27:06,912 | INFO  | paxweb-config-1-thread-1 | AbstractConnector                | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Started default@17a1289b{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-06-26T11:27:06,912 | INFO  | paxweb-config-1-thread-1 | Server                           | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Started @1294918ms
+2018-06-26T11:27:06,915 | INFO  | paxweb-config-1-thread-1 | HttpServiceFactoryImpl           | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | Binding bundle: [org.apache.karaf.http.core [54]] to http service
+2018-06-26T11:27:06,930 | INFO  | activator-1-thread-2 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.http.core/4.2.0
+2018-06-26T11:27:06,937 | INFO  | activator-1-thread-2 | HttpPlugin                       | 60 - org.apache.karaf.webconsole.http - 4.2.0 | Http plugin activated
+2018-06-26T11:27:14,080 | INFO  | pipe-feature:install webconsole | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | The specified feature: 'webconsole' version '4.2.0' is already installed
+2018-06-26T11:27:14,080 | INFO  | pipe-feature:install webconsole | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | Adding features: webconsole/[4.2.0,4.2.0]
+2018-06-26T11:27:14,283 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | No deployment change.
+2018-06-26T11:27:14,285 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | Done.
+2018-06-26T11:29:26,401 | INFO  | pipe-feature:install camel-spring | FeaturesServiceImpl              | 10 - org.apache.karaf.features.core - 4.2.0 | Adding features: camel-spring/[2.15.2,2.15.2]
+2018-06-26T11:29:35,644 | ERROR | Karaf local console user karaf | ShellUtil                        | 33 - org.apache.karaf.shell.core - 4.2.0 | Exception caught while executing command
+org.osgi.service.resolver.ResolutionException: Unable to resolve root: missing requirement [root] osgi.identity; osgi.identity=camel-spring; type=karaf.feature; version="[2.15.2,2.15.2]"; filter:="(&(osgi.identity=camel-spring)(type=karaf.feature)(version>=2.15.2)(version<=2.15.2))" [caused by: Unable to resolve camel-spring/2.15.2: missing requirement [camel-spring/2.15.2] osgi.identity; osgi.identity=spring; type=karaf.feature; version="[3.2.0,4.0.0)"]
+	at org.apache.felix.resolver.ResolutionError.toException(ResolutionError.java:42) ~[?:?]
+	at org.apache.felix.resolver.ResolverImpl.doResolve(ResolverImpl.java:391) ~[?:?]
+	at org.apache.felix.resolver.ResolverImpl.resolve(ResolverImpl.java:377) ~[?:?]
+	at org.apache.felix.resolver.ResolverImpl.resolve(ResolverImpl.java:331) ~[?:?]
+	at org.apache.karaf.features.internal.region.SubsystemResolver.resolve(SubsystemResolver.java:248) ~[?:?]
+	at org.apache.karaf.features.internal.service.Deployer.deploy(Deployer.java:388) ~[?:?]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.doProvision(FeaturesServiceImpl.java:1025) ~[?:?]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.lambda$doProvisionInThread$13(FeaturesServiceImpl.java:964) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-06-26T11:49:52,928 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.event/4.2.0
+2018-06-26T11:49:52,976 | INFO  | paxweb-config-1-thread-2 | HttpServiceFactoryImpl           | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | Unbinding bundle: [org.apache.karaf.webconsole.console [57]]
+2018-06-26T11:49:52,988 | INFO  | paxweb-config-1-thread-2 | ContextHandler                   | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Stopped HttpServiceContext{httpContext=DefaultHttpContext [bundle=org.apache.karaf.webconsole.console [57], contextID=custom]}
+2018-06-26T11:49:53,010 | INFO  | paxweb-config-1-thread-2 | HttpServiceFactoryImpl           | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | Unbinding bundle: [org.apache.karaf.http.core [54]]
+2018-06-26T11:49:53,011 | INFO  | activator-1-thread-3 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.http.core/4.2.0
+2018-06-26T11:49:53,030 | INFO  | activator-1-thread-3 | HttpPlugin                       | 60 - org.apache.karaf.webconsole.http - 4.2.0 | Http plugin deactivated
+2018-06-26T11:49:53,126 | INFO  | paxweb-config-1-thread-2 | AbstractConnector                | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Stopped default@17a1289b{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-06-26T11:49:53,127 | INFO  | paxweb-config-1-thread-2 | session                          | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Stopped scavenging
+2018-06-26T11:49:53,131 | INFO  | FelixStartLevel  | Activator                        | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | Pax Web stopped
+2018-06-26T11:49:53,142 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.webconsole.instance/4.2.0
+2018-06-26T11:49:53,143 | INFO  | FelixStartLevel  | InstancePlugin                   | 61 - org.apache.karaf.webconsole.instance - 4.2.0 | Instance plugin deactivated
+2018-06-26T11:49:53,144 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.webconsole.http/4.2.0
+2018-06-26T11:49:53,145 | INFO  | FelixStartLevel  | GogoPlugin                       | 59 - org.apache.karaf.webconsole.gogo - 4.2.0 | Gogo plugin deactivated
+2018-06-26T11:49:53,150 | INFO  | FelixStartLevel  | FeaturesPlugin                   | 58 - org.apache.karaf.webconsole.features - 4.2.0 | Features plugin deactivated
+2018-06-26T11:49:53,162 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.scr.state/4.2.0
+2018-06-26T11:49:53,164 | INFO  | FelixStartLevel  | ServiceComponentRuntimeMBeanImpl | 55 - org.apache.karaf.scr.management - 4.2.0 | Deactivating the Apache Karaf ServiceComponentRuntime MBean
+2018-06-26T11:49:53,189 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.system.core/4.2.0
+2018-06-26T11:49:53,190 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.shell.ssh/4.2.0
+2018-06-26T11:49:53,247 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.instance.core/4.2.0
+2018-06-26T11:49:53,248 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.log.core/4.2.0
+2018-06-26T11:49:53,248 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.diagnostic.core/4.2.0
+2018-06-26T11:49:53,248 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.config.core/4.2.0
+2018-06-26T11:49:53,249 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.deployer.kar/4.2.0
+2018-06-26T11:49:53,249 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.service.core/4.2.0
+2018-06-26T11:49:53,249 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.shell.commands/4.2.0
+2018-06-26T11:49:53,249 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.bundle.core/4.2.0
+2018-06-26T11:49:53,249 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.package.core/4.2.0
+2018-06-26T11:49:53,249 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T11:49:53,250 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.kar.core/4.2.0
+2018-06-26T11:49:53,250 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.features.command/4.2.0
+2018-06-26T11:49:53,253 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@42085025 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:49:53,253 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@42085025 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:49:53,253 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@42085025 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:49:53,253 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@42085025 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:49:53,254 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@42085025 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:49:53,254 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@42085025 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3
+2018-06-26T11:49:53,254 | WARN  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2018-06-26T11:49:53,280 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Stopping JMX OSGi agent
+2018-06-26T11:49:53,280 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=6d31fe83-a55f-479b-8527-04b2df6757d3] for service with service.id [15]
+六月 26, 2018 11:52:00 上午 org.apache.karaf.main.lock.SimpleFileLock lock
+信息: Trying to lock /home/lxy/apache-karaf-4.2.0/lock
+六月 26, 2018 11:52:00 上午 org.apache.karaf.main.lock.SimpleFileLock lock
+信息: Lock acquired
+六月 26, 2018 11:52:00 上午 org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+信息: Lock acquired. Setting startlevel to 100
+2018-06-26T11:52:01,735 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.config.core/4.2.0
+2018-06-26T11:52:01,735 | WARN  | CM Configuration Updater (ManagedServiceFactory Update: factoryPid=[org.apache.felix.fileinstall]) | fileinstall                      | 9 - org.apache.felix.fileinstall - 3.6.4 | /home/lxy/apache-maven-3.5.4/apache-karaf-4.2.0/deploy does not exist, please create it.
+2018-06-26T11:52:01,789 | WARN  | CM Configuration Updater (ManagedServiceFactory Update: factoryPid=[org.apache.felix.fileinstall]) | fileinstall                      | 9 - org.apache.felix.fileinstall - 3.6.4 | Root path does not exist: /home/lxy/apache-maven-3.5.4/apache-karaf-4.2.0/deploy
+2018-06-26T11:52:01,804 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@297654e5 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T11:52:01,805 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@297654e5 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T11:52:01,807 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@297654e5 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T11:52:01,807 | WARN  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[org.ops4j.pax.logging.spi.PaxAppender]]] - Dispatcher may have been shutdown
+2018-06-26T11:52:01,811 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@297654e5 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T11:52:01,811 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@297654e5 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T11:52:01,812 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@297654e5 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T11:52:01,812 | WARN  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2018-06-26T11:52:01,827 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@49373f2c with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T11:52:01,828 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@49373f2c with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T11:52:01,828 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@49373f2c with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T11:52:01,829 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@49373f2c with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T11:52:01,829 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@49373f2c with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T11:52:01,830 | INFO  | activator-1-thread-2 | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@49373f2c with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T11:52:01,850 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.deployer.kar/4.2.0
+2018-06-26T11:52:01,851 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.diagnostic.core/4.2.0
+2018-06-26T11:52:01,862 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.features.command/4.2.0. Missing dependencies: [org.apache.karaf.features.FeaturesService]
+2018-06-26T11:52:01,882 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.instance.core/4.2.0
+2018-06-26T11:52:01,890 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T11:52:01,891 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Updating commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T11:52:01,892 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Updating commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T11:52:01,894 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.kar.core/4.2.0. Missing dependencies: [org.apache.karaf.kar.KarService]
+2018-06-26T11:52:01,898 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.log.core/4.2.0
+2018-06-26T11:52:01,899 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.package.core/4.2.0
+2018-06-26T11:52:01,901 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.service.core/4.2.0
+2018-06-26T11:52:01,907 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.shell.commands/4.2.0
+2018-06-26T11:52:02,404 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.shell.ssh/4.2.0. Missing dependencies: [org.apache.sshd.server.SshServer]
+2018-06-26T11:52:02,425 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.system.core/4.2.0
+2018-06-26T11:52:02,476 | INFO  | activator-1-thread-2 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.features.command/4.2.0
+2018-06-26T11:52:02,486 | INFO  | activator-1-thread-3 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.kar.core/4.2.0
+2018-06-26T11:52:02,757 | INFO  | activator-1-thread-1 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.shell.ssh/4.2.0
+2018-06-26T11:52:02,813 | INFO  | FelixStartLevel  | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Storing Memory Dumps in /home/lxy/apache-karaf-4.2.0/data/cache/bundle51/data/dumps
+2018-06-26T11:52:02,814 | INFO  | FelixStartLevel  | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Setting Automatic Memory Dump Threshold to 0% for pools [Code Cache, Compressed Class Space, Metaspace, PS Old Gen]
+2018-06-26T11:52:02,814 | INFO  | FelixStartLevel  | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Automatic Memory Dump cannot be set for pools [PS Eden Space, PS Survivor Space]
+2018-06-26T11:52:02,814 | INFO  | FelixStartLevel  | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Setting Automatic Memory Dump Interval to 21600 seconds
+2018-06-26T11:52:02,824 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Setting Automatic Memory Dump Threshold to 0% for pools [Code Cache, Compressed Class Space, Metaspace, PS Old Gen]
+2018-06-26T11:52:02,824 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Automatic Memory Dump cannot be set for pools [PS Eden Space, PS Survivor Space]
+2018-06-26T11:52:02,824 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Setting Automatic Memory Dump Interval to 21600 seconds
+2018-06-26T11:52:02,826 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator]) | memoryusage                      | 51 - org.apache.felix.webconsole.plugins.memoryusage - 1.0.8 | Storing Memory Dumps in /home/lxy/apache-karaf-4.2.0/data/cache/bundle51/data/dumps
+2018-06-26T11:52:02,846 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Command registration delayed for bundle org.apache.karaf.http.core/4.2.0. Missing dependencies: [org.apache.karaf.http.core.ServletService, org.apache.karaf.http.core.ProxyService]
+2018-06-26T11:52:02,891 | INFO  | FelixStartLevel  | ServiceComponentRuntimeMBeanImpl | 55 - org.apache.karaf.scr.management - 4.2.0 | Activating the Apache Karaf ServiceComponentRuntime MBean
+2018-06-26T11:52:02,899 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.scr.state/4.2.0
+2018-06-26T11:52:03,042 | INFO  | FelixStartLevel  | FeaturesPlugin                   | 58 - org.apache.karaf.webconsole.features - 4.2.0 | Features plugin activated
+2018-06-26T11:52:03,048 | INFO  | FelixStartLevel  | GogoPlugin                       | 59 - org.apache.karaf.webconsole.gogo - 4.2.0 | Gogo plugin activated
+2018-06-26T11:52:03,060 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.webconsole.http/4.2.0
+2018-06-26T11:52:03,065 | INFO  | FelixStartLevel  | InstancePlugin                   | 61 - org.apache.karaf.webconsole.instance - 4.2.0 | Instance plugin activated
+2018-06-26T11:52:03,067 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.webconsole.instance/4.2.0
+2018-06-26T11:52:03,118 | INFO  | FelixStartLevel  | log                              | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Logging initialized @5121ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-06-26T11:52:03,133 | INFO  | FelixStartLevel  | Activator                        | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | EventAdmin support enabled, servlet events will be postet to topics.
+2018-06-26T11:52:03,135 | INFO  | FelixStartLevel  | Activator                        | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | LogService support enabled, log events will be created.
+2018-06-26T11:52:03,136 | INFO  | FelixStartLevel  | Activator                        | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | Pax Web started
+2018-06-26T11:52:03,178 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.event/4.2.0
+2018-06-26T11:52:03,390 | INFO  | paxweb-config-1-thread-1 | JettyFactoryImpl                 | 87 - org.ops4j.pax.web.pax-web-jetty - 7.0.0 | No ALPN class available
+2018-06-26T11:52:03,390 | INFO  | paxweb-config-1-thread-1 | JettyFactoryImpl                 | 87 - org.ops4j.pax.web.pax-web-jetty - 7.0.0 | HTTP/2 not available, creating standard ServerConnector for Http
+2018-06-26T11:52:03,400 | INFO  | paxweb-config-1-thread-1 | JettyServerImpl                  | 87 - org.ops4j.pax.web.pax-web-jetty - 7.0.0 | Pax Web available at [0.0.0.0]:[8181]
+2018-06-26T11:52:03,406 | INFO  | paxweb-config-1-thread-1 | HttpServiceFactoryImpl           | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | Binding bundle: [org.apache.karaf.http.core [54]] to http service
+2018-06-26T11:52:03,440 | INFO  | paxweb-config-1-thread-1 | HttpServiceFactoryImpl           | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | Binding bundle: [org.apache.karaf.webconsole.console [57]] to http service
+2018-06-26T11:52:03,446 | INFO  | activator-1-thread-2 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Registering commands for bundle org.apache.karaf.http.core/4.2.0
+2018-06-26T11:52:03,462 | INFO  | activator-1-thread-2 | HttpPlugin                       | 60 - org.apache.karaf.webconsole.http - 4.2.0 | Http plugin activated
+2018-06-26T11:52:03,501 | INFO  | paxweb-config-1-thread-1 | HttpServiceContext               | 87 - org.ops4j.pax.web.pax-web-jetty - 7.0.0 | registering context DefaultHttpContext [bundle=org.apache.karaf.webconsole.console [57], contextID=custom], with context-name: 
+2018-06-26T11:52:03,542 | INFO  | paxweb-config-1-thread-1 | session                          | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | DefaultSessionIdManager workerName=node0
+2018-06-26T11:52:03,543 | INFO  | paxweb-config-1-thread-1 | session                          | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | No SessionScavenger set, using defaults
+2018-06-26T11:52:03,545 | INFO  | paxweb-config-1-thread-1 | session                          | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Scavenging every 660000ms
+2018-06-26T11:52:03,557 | INFO  | paxweb-config-1-thread-1 | ContextHandler                   | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Started HttpServiceContext{httpContext=DefaultHttpContext [bundle=org.apache.karaf.webconsole.console [57], contextID=custom]}
+2018-06-26T11:52:03,563 | INFO  | paxweb-config-1-thread-1 | Server                           | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | jetty-9.4.6.v20170531
+2018-06-26T11:52:03,610 | INFO  | paxweb-config-1-thread-1 | AbstractConnector                | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Started default@2b9a133f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-06-26T11:52:03,613 | INFO  | paxweb-config-1-thread-1 | Server                           | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Started @5616ms
+2018-06-26T12:00:16,787 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.event/4.2.0
+2018-06-26T12:00:16,841 | INFO  | activator-1-thread-3 | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.http.core/4.2.0
+2018-06-26T12:00:16,860 | INFO  | paxweb-config-1-thread-2 | HttpServiceFactoryImpl           | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | Unbinding bundle: [org.apache.karaf.webconsole.console [57]]
+2018-06-26T12:00:16,863 | INFO  | activator-1-thread-3 | HttpPlugin                       | 60 - org.apache.karaf.webconsole.http - 4.2.0 | Http plugin deactivated
+2018-06-26T12:00:16,870 | INFO  | paxweb-config-1-thread-2 | ContextHandler                   | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Stopped HttpServiceContext{httpContext=DefaultHttpContext [bundle=org.apache.karaf.webconsole.console [57], contextID=custom]}
+2018-06-26T12:00:16,874 | INFO  | paxweb-config-1-thread-2 | HttpServiceFactoryImpl           | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | Unbinding bundle: [org.apache.karaf.http.core [54]]
+2018-06-26T12:00:16,908 | INFO  | paxweb-config-1-thread-2 | AbstractConnector                | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Stopped default@2b9a133f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-06-26T12:00:16,909 | INFO  | paxweb-config-1-thread-2 | session                          | 79 - org.eclipse.jetty.util - 9.4.6.v20170531 | Stopped scavenging
+2018-06-26T12:00:16,912 | INFO  | FelixStartLevel  | Activator                        | 88 - org.ops4j.pax.web.pax-web-runtime - 7.0.0 | Pax Web stopped
+2018-06-26T12:00:16,927 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.webconsole.instance/4.2.0
+2018-06-26T12:00:16,928 | INFO  | FelixStartLevel  | InstancePlugin                   | 61 - org.apache.karaf.webconsole.instance - 4.2.0 | Instance plugin deactivated
+2018-06-26T12:00:16,929 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.webconsole.http/4.2.0
+2018-06-26T12:00:16,930 | INFO  | FelixStartLevel  | GogoPlugin                       | 59 - org.apache.karaf.webconsole.gogo - 4.2.0 | Gogo plugin deactivated
+2018-06-26T12:00:16,932 | INFO  | FelixStartLevel  | FeaturesPlugin                   | 58 - org.apache.karaf.webconsole.features - 4.2.0 | Features plugin deactivated
+2018-06-26T12:00:16,950 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.scr.state/4.2.0
+2018-06-26T12:00:16,952 | INFO  | FelixStartLevel  | ServiceComponentRuntimeMBeanImpl | 55 - org.apache.karaf.scr.management - 4.2.0 | Deactivating the Apache Karaf ServiceComponentRuntime MBean
+2018-06-26T12:00:16,967 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.system.core/4.2.0
+2018-06-26T12:00:16,969 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.shell.ssh/4.2.0
+2018-06-26T12:00:17,021 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.shell.commands/4.2.0
+2018-06-26T12:00:17,022 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.features.command/4.2.0
+2018-06-26T12:00:17,022 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.config.core/4.2.0
+2018-06-26T12:00:17,023 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.service.core/4.2.0
+2018-06-26T12:00:17,023 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.diagnostic.core/4.2.0
+2018-06-26T12:00:17,023 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.kar.core/4.2.0
+2018-06-26T12:00:17,023 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.jaas.command/4.2.0
+2018-06-26T12:00:17,024 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.package.core/4.2.0
+2018-06-26T12:00:17,024 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.bundle.core/4.2.0
+2018-06-26T12:00:17,024 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.deployer.kar/4.2.0
+2018-06-26T12:00:17,024 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.instance.core/4.2.0
+2018-06-26T12:00:17,025 | INFO  | FelixStartLevel  | CommandExtension                 | 33 - org.apache.karaf.shell.core - 4.2.0 | Unregistering commands for bundle org.apache.karaf.log.core/4.2.0
+2018-06-26T12:00:17,029 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@49373f2c with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T12:00:17,030 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@49373f2c with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T12:00:17,031 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@49373f2c with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T12:00:17,031 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@49373f2c with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T12:00:17,031 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@49373f2c with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T12:00:17,032 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@49373f2c with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee
+2018-06-26T12:00:17,032 | WARN  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2018-06-26T12:00:17,059 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Stopping JMX OSGi agent
+2018-06-26T12:00:17,059 | INFO  | FelixStartLevel  | core                             | 12 - org.apache.aries.jmx.core - 1.1.8 | Unregistering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=b4e98a4d-c7f1-4f1a-885d-a103994e2aee] for service with service.id [14]
